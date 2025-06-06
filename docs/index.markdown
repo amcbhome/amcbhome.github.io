@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Alastair McBride - CV"
 author_profile: true
 ---
