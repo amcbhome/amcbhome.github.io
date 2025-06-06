@@ -4,7 +4,6 @@ description: >
   Dedicated professional with a degree in accounts.
 baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
-theme: jekyll-theme-cayman
-
+theme: minima
 markdown: kramdown
 
