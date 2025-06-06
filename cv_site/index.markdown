@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Alastair McBride - CV"
-permalink: /cv/
 author_profile: true
 ---
 
@@ -80,3 +79,4 @@ University of the West of Scotland, Paisley
 - Hiking
 - Food
 - Travel
+
