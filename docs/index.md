@@ -3,14 +3,17 @@ layout: default
 title: "CV and portfolio"
 ---
 
-<!-- Optional: remove or modify this custom nav if you have it elsewhere -->
+<!-- Optional: custom nav bar (with spacing) -->
 <div class="custom-nav">
   <a href="/about/">About Me</a> |
   <a href="/cv/">My CV</a> |
   <a href="/portfolio/">Portfolio</a>
 </div>
 
+<br>
+
 # CV and portfolio
+
 
 
 
