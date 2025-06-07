@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Welcome to Alastair McBride's Site"
+title: "CV and portfolio"
+
 ---
 
 <!-- Custom navigation bar -->
@@ -10,7 +11,8 @@ title: "Welcome to Alastair McBride's Site"
   <a href="/portfolio/">Portfolio</a>
 </div>
 
-# Welcome to Alastair McBride's Site
+# CV and portfolio
+
 
 <!-- Removed: the additional text and list -->
 
