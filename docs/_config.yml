@@ -5,8 +5,16 @@ description: >
 baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
 
-theme: minima
-
 markdown: kramdown
+theme: jekyll-theme-minimal
+
+# Additional settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
 
 

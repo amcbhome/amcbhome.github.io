@@ -1,81 +1,29 @@
-/* Custom CSS for Alastair McBride's GitHub Pages site */
+/* custom.css */
 
-/* Body and typography */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+/* 1️⃣ Hide the auto-generated nav bar */
+nav {
+  display: none;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  color: #2c3e50;
+/* 2️⃣ Style the custom nav links */
+.custom-nav {
+  text-align: center;
+  margin: 20px 0;
 }
 
-/* Links */
-a {
-  color: #1a73e8;
+.custom-nav a {
   text-decoration: none;
+  margin: 0 15px;
+  color: #0366d6; /* standard GitHub link color */
+  font-weight: 500;
 }
 
-a:hover {
+.custom-nav a:hover {
   text-decoration: underline;
 }
 
-/* Page layout */
-header, footer {
-  background-color: #1a73e8;
-  color: #fff;
-  padding: 10px 20px;
-}
-
-header h1, footer p {
-  margin: 0;
-}
-
-/* Content container */
-.page-content {
-  background: #fff;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  border-radius: 5px;
-}
-
-/* Table styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 10px 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
-
-table th {
-  background-color: #f0f0f0;
-}
-
-/* Lists */
-ul, ol {
-  margin: 10px 0;
-  padding-left: 20px;
-}
-
-/* Code blocks */
-pre, code {
-  background: #eee;
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-/* Footer links */
-footer a {
-  color: #fff;
-  text-decoration: underline;
+/* 3️⃣ Optional: Add a bottom border to visually separate nav from content */
+.custom-nav {
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 10px;
 }

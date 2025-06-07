@@ -3,12 +3,22 @@ layout: page
 title: "Welcome to Alastair McBride's Site"
 ---
 
+<!-- Link to custom CSS -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<div class="custom-nav">
+  <a href="/about/">About Me</a> |
+  <a href="/cv/">My CV</a> |
+  <a href="/portfolio/">Portfolio</a>
+</div>
+
 # Welcome!
 
 This site includes:
 
-- [My CV](./cv/)
-- [My Portfolio](./portfolio/)
-- [About Me](./about/)
+- [My CV](/cv/)
+- [My Portfolio](/portfolio/)
+- [About Me](/about/)
 
 Feel free to explore!
+
