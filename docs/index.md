@@ -1,24 +1,19 @@
 ---
-layout: page
+layout: default
 title: "Welcome to Alastair McBride's Site"
 ---
 
-<!-- Link to custom CSS -->
-<link rel="stylesheet" href="/assets/css/custom.css">
-
+<!-- Custom navigation bar -->
 <div class="custom-nav">
   <a href="/about/">About Me</a> |
   <a href="/cv/">My CV</a> |
   <a href="/portfolio/">Portfolio</a>
 </div>
 
-# Welcome!
+# Welcome to Alastair McBride's Site
 
-This site includes:
+<!-- Removed: the additional text and list -->
 
-- [My CV](/cv/)
-- [My Portfolio](/portfolio/)
-- [About Me](/about/)
+<!-- If you want to leave a greeting or short message, you can add it here -->
 
-Feel free to explore!
 
