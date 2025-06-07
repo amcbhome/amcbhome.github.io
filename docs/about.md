@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "About Me"
+permalink: /about/
 ---
 
 # About Me
@@ -17,5 +18,3 @@ I’m a professional focused on creating dynamic, user-friendly web solutions an
 I have a passion for using technology to create practical tools and resources. In my free time, I enjoy exploring new ideas and sharing my knowledge with others.
 
 Feel free to connect with me via [email](mailto:amcb.home@gmail.com)!
-
----
