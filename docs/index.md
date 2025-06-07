@@ -1,10 +1,9 @@
 ---
 layout: default
 title: "CV and portfolio"
-
 ---
 
-<!-- Custom navigation bar -->
+<!-- Optional: remove or modify this custom nav if you have it elsewhere -->
 <div class="custom-nav">
   <a href="/about/">About Me</a> |
   <a href="/cv/">My CV</a> |
@@ -13,9 +12,5 @@ title: "CV and portfolio"
 
 # CV and portfolio
 
-
-<!-- Removed: the additional text and list -->
-
-<!-- If you want to leave a greeting or short message, you can add it here -->
 
 
