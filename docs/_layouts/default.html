@@ -1,2 +1,28 @@
-<link rel="stylesheet" href="/assets/css/custom.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+
+  <!-- Optional: site header -->
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+
+  <!-- Render page content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Optional: site footer -->
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+  </footer>
+
+</body>
+</html>
+
 
