@@ -4,10 +4,8 @@ description: >
   CV and portfolio
 baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
-
+theme: minima
 markdown: kramdown
-theme: Minima
-
 # Additional settings
 defaults:
   - scope:
