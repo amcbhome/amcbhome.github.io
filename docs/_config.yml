@@ -6,5 +6,5 @@ baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
 theme: minima
 
-markdown: kramd
+markdown: kramdown
 
