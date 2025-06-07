@@ -1,9 +1,10 @@
 title: Alastair McBride
 email: amcb.home@gmail.com
 description: >
-  Dedicated professional with a degree in accounts.
+  CV and portfolio
 baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
-theme: minima
+remote_theme: pages-themes/slate@v0.2.0
 markdown: kramdown
+
 
