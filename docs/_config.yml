@@ -6,7 +6,7 @@ baseurl: "" # for GitHub Pages
 url: "https://amcbhome.github.io"
 
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: Minima
 
 # Additional settings
 defaults:
