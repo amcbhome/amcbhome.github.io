@@ -10,7 +10,6 @@ Hi, I'm **Alastair McBride**, an accountant and data enthusiast. My work combine
 
 - [About Me](about.md)
 - [My CV](cv.md)
-- [Portfolio](portfolio.md)
 
 ### 📊 Featured Project: Portfolio Risk Analysis
 
