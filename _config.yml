@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Alastair McBride
+description: Accounting | Analytics | AI
 
 baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url: "https://amcbhome.github.io" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
@@ -13,7 +13,7 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
+linkedin: "https://www.linkedin.com/in/alastairmcbride/"
 stackoverflow: "#"
 github: "#"
 researchgate: "#"
