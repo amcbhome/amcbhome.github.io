@@ -1,7 +1,7 @@
 # Site
 name: "Alastair McBride"
 title: "Alastair McBride"
-description: "Projects"
+description: "cv portfolio projects"
 url: "https://amcbhome.github.io"
 baseurl: ""                    # <-- IMPORTANT for amcbhome.github.io
 
