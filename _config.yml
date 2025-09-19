@@ -1,6 +1,6 @@
 # Site
 name: "Alastair McBride"
-title: "a. mcbride"
+title: "Alastair McBride"
 description: "cv & portfolio"
 url: "https://amcbhome.github.io"
 baseurl: ""                    # <-- IMPORTANT for amcbhome.github.io
@@ -21,7 +21,7 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-# linkedin: "https://www.linkedin.com/in/alastairmcbride/"
+linkedin: "https://www.linkedin.com/in/alastairmcbride/"
 # stackoverflow: "#"
 github: "#"
 # researchgate: "#"
