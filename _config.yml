@@ -78,3 +78,10 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from   # <-- add this
+
