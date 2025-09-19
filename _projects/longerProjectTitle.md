@@ -9,6 +9,8 @@ Example modified from [here](https://amcb-delivery-optimisation.streamlit.app/){
 H1 Header
 ============
 
+Prescriptive analytics calculate the best course of action. The following delivery schedule is optimised by linear programming, minimising the delivery cost. The source is here, solved with Excel. https://www.accaglobal.com/uk/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-leader/technical-articles/big-data-sbl.html
+
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
