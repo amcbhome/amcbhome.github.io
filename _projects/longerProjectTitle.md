@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A longer Project Title
+title: Prescriptive Analytics
 description: Solving a delivery schedule with python. 
 ---
 
