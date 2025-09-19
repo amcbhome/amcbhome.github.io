@@ -5,7 +5,7 @@ description: description of the short project which is long enough
 ---
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
+Analytics Projects
 ============
 
 Paragraphs are separated by a blank line.
@@ -13,9 +13,9 @@ Paragraphs are separated by a blank line.
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
 
-  * this one
-  * that one
-  * the other one
+  * Repository of apps
+  * Pyton
+  * GitHub
 
 Note that the actual text
 content starts at 4-columns in.
