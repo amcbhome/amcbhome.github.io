@@ -3,10 +3,13 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: 
+  image: profile.png
 published: true
 ---
-Accounts graduate, projects in AI and data analytics.
+1.
+2.
+3.
+
 
  
 <p>
