@@ -1,7 +1,7 @@
 # Site
 name: "Alastair McBride"
-title: "Accounting | Analytics | AI"
-description: "Accounts graduate, projects in AI and data analytics."
+title: "Alastair McBride"
+description: "Projects"
 url: "https://amcbhome.github.io"
 baseurl: ""                    # <-- IMPORTANT for amcbhome.github.io
 
@@ -21,15 +21,15 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "https://www.linkedin.com/in/alastairmcbride/"
-stackoverflow: "#"
+# linkedin: "https://www.linkedin.com/in/alastairmcbride/"
+# stackoverflow: "#"
 github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# bluesky: "#"
 
 # Markdown
 highlighter: rouge
