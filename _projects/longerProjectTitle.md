@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A longer Project Title
-description: short project description
+description: Solving a delivery schedule with python. 
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.

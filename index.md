@@ -6,7 +6,7 @@ profile:
   image:
 published: true
 ---
-Welcome to my CV and portfolio. I am an accounts graduate exploring the contemporary use AI and data analytics. Whether it's writing your CV or solving a linear program, generative AI can help.
+Welcome to my CV and portfolio. I am an accounts graduate exploring the contemporary use of AI and data analytics. Whether it's writing your CV or solving a linear program, generative AI can help.
 
 I hope you enjoy having a look around, drop me a line if you like!
 
