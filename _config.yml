@@ -1,11 +1,19 @@
-### your site title here
+# Site
+name: "Alastair McBride"
+title: "Accounting | Analytics | AI"
+description: "Accounts graduate, projects in AI and data analytics."
+url: "https://amcbhome.github.io"
+baseurl: ""                    # <-- IMPORTANT for amcbhome.github.io
 
-title: Alastair McBride
-description: Accounting | Analytics | AI
+# Theme
+remote_theme: jitinnair1/gradfolio
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-baseurl: /gradfolio #name of GitHub repository
-url: "https://amcbhome.github.io" #custom url to be used instead of GitHub repository
-email: #
+# (optional) Repo hint
+repository: amcbhome/amcbhome.github.io
 
 # Pagination
 paginate: 4
