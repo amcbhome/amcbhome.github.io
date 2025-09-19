@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prescriptive Analytics
-description: Solving a delivery schedule with python. 
+description: A delivery schedule optimised with linear programming.
 ---
 
 Example modified from [here](https://amcb-delivery-optimisation.streamlit.app/){:target="_blank"}.
