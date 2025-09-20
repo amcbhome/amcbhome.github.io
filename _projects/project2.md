@@ -6,10 +6,10 @@ description: predictive analytics
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
+Predictive
 ============
 
-Paragraphs are separated by a blank line.
+"What will happen?". Using current and historic data to forecast a future outcome.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:

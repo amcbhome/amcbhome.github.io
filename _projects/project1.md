@@ -6,8 +6,10 @@ description: descriptive analytics
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
+Descriptive Analytics
 ============
+
+"What has happened?". For example, analysing sales data. 
 
 Paragraphs are separated by a blank line.
 
