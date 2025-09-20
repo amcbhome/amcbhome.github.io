@@ -1,19 +1,21 @@
 ---
-layout: post
-title: Project: Delivery schedule
-description: Linear programming optimisation
+layout: about
+permalink: /
+profile:
+  align: right
+  image:
+published: true
 ---
+Welcome to my CV and portfolio. I am an accounts graduate exploring the contemporary use of AI and data analytics. Whether it's writing your CV or solving a linear program, generative AI can help.
 
-Objective
-============
+I hope you enjoy having a look around, drop me a line if you like!
 
-**Use GenAi python to solve a linear program, paving the way for embedded analytics.**
-
-The original ACCA problem [here](https://www.accaglobal.com/uk/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-leader/technical-articles/big-data-sbl.html){:target="_blank"}.
-
-Generated python code [here](https://github.com/amcbhome/delivery_schedule/blob/main/app.py){:target="_blank"}.
-
-Generated python code output [here](https://deliveryschedule-skfpan9wf82sws9jqspx6h.streamlit.app/){:target="_blank"}.
+ 
+<p>
+  <a class="btn" href="{{ '/assets/Alastair_McBride_CV.pdf' | relative_url }}">
+    Download CV (PDF)
+  </a>
+</p>
 
 
 
