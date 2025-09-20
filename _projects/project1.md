@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Project 1
+title: Descriptive analytics
 description: descriptive analytics
 ---
 
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
-
-Descriptive Analytics
-============
-
 "What has happened?". For example, analysing sales data. 
+
+Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
 Paragraphs are separated by a blank line.
 
