@@ -6,10 +6,18 @@ description: Linear programming optimisation
 
 Example modified from [here](https://deliveryschedule-skfpan9wf82sws9jqspx6h.streamlit.app/){:target="_blank"}.
 
-H1 Header
+Objective
 ============
 
-Paragraphs are separated by a blank line.
+Use GenAi python to solve a linear program rather than Excel, paving the way for embedded analytics.
+
+Link to the Excel example [here](https://www.accaglobal.com/uk/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-leader/technical-articles/big-data-sbl.html){:target="_blank"}.
+
+Generated code [here](https://github.com/amcbhome/delivery_schedule/blob/main/app.py){:target="_blank"}.
+
+Web app [here]((https://deliveryschedule-skfpan9wf82sws9jqspx6h.streamlit.app/){:target="_blank"}.
+
+
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
