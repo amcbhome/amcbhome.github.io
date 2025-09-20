@@ -5,7 +5,7 @@ description: Linear programming optimisation
 ---
 
 Objective
----------
+============
 
 **Use GenAi python to solve a linear program, paving the way for embedded analytics.**
 
