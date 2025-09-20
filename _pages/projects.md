@@ -1,18 +1,45 @@
 ---
-layout: about
-permalink: /
-profile:
-  align: right
-  image:
+title:
+layout: default
+permalink: /projects/
 published: true
 ---
-Welcome to my CV and portfolio. I am an accounts graduate exploring the contemporary use of AI and data analytics. Whether it's writing your CV or solving a linear program, generative AI can help.
 
-I hope you enjoy having a look around, drop me a line if you like!
 
- 
-<p>
-  <a class="btn" href="{{ '/assets/Alastair_McBride_CV.pdf' | relative_url }}">
-    Download CV (PDF)
-  </a>
-</p>
+<div class="ProjectContainer">
+
+	<div class="gallery">
+
+
+  {% for project in site.projects %}
+
+  {% if project.redirect %}
+  <div class="projectTile">
+          <a href="{{ project.redirect }}" target="_blank">
+          <span>
+              <h2>{{ project.title }}</h2>
+              <br/>
+              <p>{{ project.description }}</p>
+          </span>
+          </a>
+  </div>
+
+  {% else %}
+
+  <div class="projectTile">
+          <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+          <span>
+              <h2>{{ project.title }}</h2>
+              <br/>
+              <p>{{ project.description }}</p>
+          </span>
+          </a>
+  </div>
+
+  {% endif %}
+
+  {% endfor %}
+
+	</div>
+
+</div>
