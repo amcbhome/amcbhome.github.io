@@ -12,7 +12,7 @@ I hope you enjoy having a look around, drop me a line if you like!
 
  
 <p>
-  <a class="btn" href="{{ '/assets/Alastair_McBride_CV.pdf' | relative_url }}">
+  <a class="btn" href="{{ '/autoCV/cv.pdf' | relative_url }}">
     Download CV (PDF)
   </a>
 </p>
