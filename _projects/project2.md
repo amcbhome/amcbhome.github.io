@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimisation with linear programming
-description: Linear program optimisation
+description: A project in prescriptive analytics
 ---
 
 
