@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Project - Optimise a delivery schedule
-description: click
+title: Project 2
+description: Portfolio theory using GenAi python
 ---
-This interactive app optimises the delivery of TV's from three depots to three stores with a capacity of 2000, 3000 and 2000 respectively.
+This interactive app diversifies the risk from two investments by combining them in one portfolio. The mathematical strategy substitutes mean for return, standard deviation for risk and relies on negative correlation between the inputs.
 
-The cost of delivering each TV is £5 per mile. 
 
-The objective is to minimise the cost of delivery. 
-
-Click [here](https://github.com/amcbhome/tv_delivery_schedule){:target="_blank"} for the code and [here](https://amcb-delivery-optimisation.streamlit.app/){:target="_blank"} for the app. The ACCA article on the topic can be found [here](https://www.accaglobal.com/uk/en/student/exam-support-resources/professional-exams-study-resources/strategic-business-leader/technical-articles/big-data-sbl.html){:target="_blank"}
+Click [here]){:target="_blank"} for the code and [here](){:target="_blank"} for the app. The finance exercise can be found in [here](){:target="_blank"}
