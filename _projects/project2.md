@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Optimise a delivery schedule
-description: prescriptive analytics
+title: Project - Optimise a delivery schedule
+description: click
 ---
 This interactive app optimises the delivery of TV's from three depots to three stores with a capacity of 2000, 3000 and 2000 respectively.
 
