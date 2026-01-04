@@ -1,1 +1,171 @@
-###
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Personal Organiser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+:root{
+  --paper:#f7f6f3;
+  --ink:#2b2b2b;
+  --pencil:#6b7280;
+  --line:#d4d4d4;
+  --accent:#2563eb;
+}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+body{display:flex;justify-content:center;}
+.page{max-width:760px;width:100%;padding:28px 22px 60px;}
+.header{font-size:13px;color:var(--pencil);margin-bottom:18px;}
+.rule{border-bottom:1px solid var(--line);margin:10px 0 18px;}
+section{margin-bottom:28px;}
+h2{font-size:15px;font-weight:600;margin:0 0 6px;}
+h2::after{content:"";display:block;border-bottom:1px solid var(--line);margin-top:4px;}
+ul{list-style:none;padding:0;margin:10px 0 0;}
+li{margin:8px 0;font-size:14px;}
+a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--line);}
+a:hover{color:var(--accent);border-bottom-color:var(--accent);}
+.small{color:var(--pencil);font-size:12px;margin-top:2px}
+.task{display:flex;gap:10px;align-items:flex-start}
+.done{text-decoration:line-through;color:var(--pencil)}
+footer{margin-top:40px;font-size:12px;color:var(--pencil)}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<div class="header">
+  <div id="datetime"></div>
+  <div id="weather">Kilmarnock · weather</div>
+  <div class="rule"></div>
+</div>
+
+<!-- TO DO -->
+<section>
+<h2>To-do</h2>
+<ul id="todo"></ul>
+</section>
+
+<!-- DOCUMENTS -->
+<section>
+<h2>Current documents</h2>
+<ul id="documents"></ul>
+</section>
+
+<!-- CALENDAR -->
+<section>
+<h2>Calendar</h2>
+<ul id="calendar"></ul>
+</section>
+
+<!-- ROUTES -->
+<section>
+<h2>Routes</h2>
+<ul id="routes"></ul>
+</section>
+
+<!-- CONTACTS -->
+<section>
+<h2>Contacts</h2>
+<ul id="contacts"></ul>
+</section>
+
+<footer>
+Personal organiser · public shell · local state
+</footer>
+
+</div>
+
+<script>
+// DATE & TIME
+function tick(){
+  const o={weekday:'long',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'};
+  document.getElementById('datetime').textContent =
+    new Date().toLocaleString(undefined,o).replace(',', ' ·');
+}
+tick(); setInterval(tick,60000);
+
+// GENERIC LOADER
+async function loadJSON(id, file, render){
+  const res = await fetch(`data/${file}`);
+  const data = await res.json();
+  const ul = document.getElementById(id);
+  render(data, ul);
+}
+
+// TO DO (with localStorage)
+const TODO_KEY="todo_state_v1";
+loadJSON("todo","todo.json",(items,ul)=>{
+  const state=JSON.parse(localStorage.getItem(TODO_KEY)||"{}");
+  items.forEach(t=>{
+    const li=document.createElement("li");
+    const done=state[t.id];
+    li.innerHTML=`
+      <div class="task">
+        <input type="checkbox" ${done?"checked":""}>
+        <div class="${done?"done":""}">
+          <a href="${t.link}" target="_blank">${t.title}</a>
+          <div class="small">${t.context} · ${t.app}</div>
+        </div>
+      </div>`;
+    li.querySelector("input").onchange=e=>{
+      state[t.id]=e.target.checked;
+      localStorage.setItem(TODO_KEY,JSON.stringify(state));
+      li.querySelector("div").classList.toggle("done",e.target.checked);
+    };
+    ul.appendChild(li);
+  });
+});
+
+// DOCUMENTS
+loadJSON("documents","documents.json",(docs,ul)=>{
+  docs.forEach(d=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<a href="${d.file}" target="_blank">${d.title}</a>
+                  <div class="small">PDF · ${d.note||""}</div>`;
+    ul.appendChild(li);
+  });
+});
+
+// CALENDAR
+loadJSON("calendar","calendar.json",(items,ul)=>{
+  items.forEach(e=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<strong>${e.date}</strong> · ${e.title}
+                  <div class="small">${e.note||""}</div>`;
+    ul.appendChild(li);
+  });
+});
+
+// ROUTES (Google Maps)
+loadJSON("routes","routes.json",(items,ul)=>{
+  items.forEach(r=>{
+    const dest=encodeURIComponent(r.destination);
+    const url=`https://www.google.com/maps/dir/?api=1&destination=${dest}&travelmode=${r.mode||"driving"}`;
+    const li=document.createElement("li");
+    li.innerHTML=`<strong>${r.label}</strong>
+      <div class="small">${r.mode} ${r.note?"· "+r.note:""}</div>
+      <a href="${url}" target="_blank">Open in Maps →</a>`;
+    ul.appendChild(li);
+  });
+});
+
+// CONTACTS
+loadJSON("contacts","contacts.json",(items,ul)=>{
+  items.forEach(c=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<strong>${c.name}</strong>
+      <div class="small">${c.role||""}</div>
+      ${c.email?`<a href="mailto:${c.email}">${c.email}</a>`:""}
+      ${c.link?`<a href="${c.link}" target="_blank">${c.link}</a>`:""}
+      <div class="small">${c.note||""}</div>`;
+    ul.appendChild(li);
+  });
+});
+</script>
+
+</body>
+</html>
